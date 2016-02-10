@@ -678,13 +678,13 @@ audio:not([controls]),
 .contact-info__heading {
   margin-bottom: 1rem;
 }
-.contact-info__contact-city {
+.contact-info__contact-address {
   margin-bottom: 2rem;
 }
 .contact-info__contact-mail {
   margin-bottom: 2rem;
 }
-.contact-info__contact-mail-link {
+.contact-info__contact-link {
   text-decoration: underline;
   color: inherit;
 }
