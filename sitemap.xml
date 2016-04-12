@@ -2,46 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>http://rocketloop.de/</loc>
-        <lastmod>2016-04-12T10:34:59.962Z</lastmod>
-    </url>
-    <url>
-        <loc>http://rocketloop.de/build/</loc>
-        <lastmod>2016-04-12T10:34:59.962Z</lastmod>
+        <lastmod>2016-04-12T10:39:53.666Z</lastmod>
     </url>
     <url>
         <loc>http://rocketloop.de/posts/</loc>
-        <lastmod>2016-04-12T10:34:59.962Z</lastmod>
+        <lastmod>2016-04-12T10:39:53.666Z</lastmod>
     </url>
     <url>
         <loc>http://rocketloop.de/posts/textvorverarbeitung-machine-learning.html</loc>
-        <lastmod>2016-04-12T10:34:57.930Z</lastmod>
-    </url>
-    <url>
-        <loc>http://rocketloop.de/build/dist/</loc>
-        <lastmod>2016-04-12T10:34:59.962Z</lastmod>
-    </url>
-    <url>
-        <loc>http://rocketloop.de/build/posts/app-struktur-in-angular2.html</loc>
-        <lastmod>2016-04-12T10:34:59.962Z</lastmod>
-    </url>
-    <url>
-        <loc>http://rocketloop.de/build/posts/</loc>
-        <lastmod>2016-04-12T10:34:59.962Z</lastmod>
-    </url>
-    <url>
-        <loc>http://rocketloop.de/build/posts/static-blog-roots-contentful.html</loc>
-        <lastmod>2016-04-12T10:34:59.962Z</lastmod>
-    </url>
-    <url>
-        <loc>http://rocketloop.de/build/posts/textvorverarbeitung-machine-learning.html</loc>
-        <lastmod>2016-04-12T10:34:59.962Z</lastmod>
-    </url>
-    <url>
-        <loc>http://rocketloop.de/build/dist/posts/</loc>
-        <lastmod>2016-04-12T10:34:59.962Z</lastmod>
-    </url>
-    <url>
-        <loc>http://rocketloop.de/build/dist/posts/textvorverarbeitung-machine-learning.html</loc>
-        <lastmod>2016-04-12T10:34:59.962Z</lastmod>
+        <lastmod>2016-04-12T10:39:51.686Z</lastmod>
     </url>
 </urlset>
