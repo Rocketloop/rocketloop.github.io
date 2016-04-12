@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>http://rocketloop.de/</loc>
-        <lastmod>2016-04-12T09:17:05.991Z</lastmod>
+        <lastmod>2016-04-12T09:24:31.771Z</lastmod>
     </url>
     <url>
-        <loc>http://rocketloop.de/posts.html</loc>
-        <lastmod>2016-04-12T09:17:05.991Z</lastmod>
+        <loc>http://rocketloop.de/posts/</loc>
+        <lastmod>2016-04-12T09:24:31.771Z</lastmod>
     </url>
     <url>
         <loc>http://rocketloop.de/posts/textvorverarbeitung-machine-learning.html</loc>
-        <lastmod>2016-04-12T09:17:04.063Z</lastmod>
+        <lastmod>2016-04-12T09:24:29.839Z</lastmod>
     </url>
 </urlset>
