@@ -1,18 +1,19 @@
 var gulp = require('gulp');
 var sitemap = require('gulp-sitemap');
+var ghPages = require('gulp-gh-pages');
  
 gulp.task('sitemap', function () {
-    gulp.src('public/**/*.html')
+    gulp.src('dist/**/*.html')
         .pipe(sitemap({
             siteUrl: 'http://rocketloop.de'
         }))
-        .pipe(gulp.dest('./public'));
+        .pipe(gulp.dest('./dist'));
 });
 
 gulp.task('deploy', function() {
-  return gulp.src('./public/**/*')
+  return gulp.src('./dist/**/*')
     .pipe(ghPages({
-        "remoteUrl": "https://github.com/Rocketloop/rocketloop.github.io.git",
+        "remoteUrl": "git@github.com:Rocketloop/rocketloop.github.io.git",
         "branch": "master"
     }));
 });
