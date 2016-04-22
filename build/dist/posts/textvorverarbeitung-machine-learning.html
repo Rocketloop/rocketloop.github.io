@@ -8,7 +8,7 @@ Der OpenNLP Wrapper für Node.js ist optimal dafür geeignet diese Vorverarbeitu
 <li>Chunker</li>
 <li>Name Finder</li>
 <li>Part of Speach Tagging</li>
-<li>Sentence Detector</li>
+<li>Sentence Dector</li>
 <li>Tokenizer</li>
 </ul>
 <p>Dafür stellt Apache unter <a href="http://opennlp.sourceforge.net/models-1.5/">http://opennlp.sourceforge.net/models-1.5/</a> eine Vielzahl trainierter Modelle zur Verfügung, die in verschiedenen Sprachen (zum Beispiel Englisch und Deutsch) heruntergeladen und eingebunden werden können.
@@ -70,7 +70,7 @@ Dazu haben wir uns einen eigenen minimalistischen OpenNLP Wrapper geschrieben, d
 <pre class="highlight"><code>npm install opennlp-wrapper
 </code></pre><p>Die Konfiguration, Sentence Splitting und Tokenisierung unterscheidet sich hierbei leicht vom originalen Projekt, sodass ein einfacher Tausch der Bibliothek nicht genügt.</p>
 <h3 id="konfiguration">Konfiguration</h3>
-<p>Die folgende Konfiguration beschreibt den OpenNLP Wrapper, der von uns entwickelt wurde, mit den deutschen Modellen für den Sentence Detector und den Tokenizer initialisiert. Man beachte, dass auch hier die Konfiguration leicht angepasst wurde, im Vergleich zur original Bibliothek.</p>
+<p>Die folgenden Konfiguration beschreibt den OpenNLP Wrapper, der von uns entwickelt wurde, mit den deutschen Modellen für den Sentence Detector und den Tokenizer initialisiert. Man beachte, dass auch hier die Konfiguration leicht angepasst wurde, im Vergleich zur original Bibliothek.</p>
 <pre class="highlight"><code><span class="kd">var</span> <span class="nx">openNLPOptions</span> <span class="o">=</span> <span class="p">{</span>
     <span class="nx">models</span> <span class="o">:</span> <span class="p">{</span>
         <span class="s2">&quot;tokenizer&quot;</span><span class="o">:</span> <span class="nx">nlpPath</span> <span class="o">+</span>  <span class="s1">&#39;de-token.bin&#39;</span><span class="p">,</span>
