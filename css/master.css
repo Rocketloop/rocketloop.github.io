@@ -423,7 +423,7 @@ audio:not([controls]),
 }
 @media only screen and (min-width: 28rem) {
   .page-section__wrap {
-    *zoom: 1;
+    zoom: 1;
     width: auto;
     max-width: 80%;
     float: none;
@@ -435,7 +435,7 @@ audio:not([controls]),
   }
   .page-section__wrap:before,
   .page-section__wrap:after {
-    content: '';
+    content: "";
     display: table;
   }
   .page-section__wrap:after {
@@ -444,7 +444,7 @@ audio:not([controls]),
 }
 @media only screen and (min-width: 92rem) {
   .page-section__wrap {
-    *zoom: 1;
+    zoom: 1;
     width: auto;
     max-width: 60%;
     float: none;
@@ -456,7 +456,7 @@ audio:not([controls]),
   }
   .page-section__wrap:before,
   .page-section__wrap:after {
-    content: '';
+    content: "";
     display: table;
   }
   .page-section__wrap:after {
@@ -526,7 +526,7 @@ audio:not([controls]),
 }
 @media only screen and (min-width: 56rem) {
   .concept-section__column {
-    *zoom: 1;
+    zoom: 1;
     float: left;
     clear: none;
     text-align: inherit;
@@ -536,7 +536,7 @@ audio:not([controls]),
   }
   .concept-section__column:before,
   .concept-section__column:after {
-    content: '';
+    content: "";
     display: table;
   }
   .concept-section__column:after {
@@ -616,7 +616,7 @@ audio:not([controls]),
 }
 @media only screen and (min-width: 56rem) {
   .spotlight-grid-item {
-    *zoom: 1;
+    zoom: 1;
     float: left;
     clear: none;
     text-align: inherit;
@@ -626,17 +626,22 @@ audio:not([controls]),
   }
   .spotlight-grid-item:before,
   .spotlight-grid-item:after {
-    content: '';
+    content: "";
     display: table;
   }
   .spotlight-grid-item:after {
     clear: both;
   }
+  .spotlight-grid-item:nth-child(n) {
+    margin-right: 3%;
+    float: left;
+    clear: none;
+  }
   .spotlight-grid-item:nth-child(2n) {
     margin-right: 0%;
     float: right;
   }
-  .spotlight-grid-item:nth-child(2n+1) {
+  .spotlight-grid-item:nth-child(2n + 1) {
     clear: both;
   }
 }
@@ -1096,11 +1101,13 @@ audio:not([controls]),
   font-size: 1.125rem;
 }
 html {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 *,
 *:before,
 *:after {
+  -webkit-box-sizing: inherit;
   box-sizing: inherit;
 }
 html,
