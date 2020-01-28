@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:4.0
+N:Reifschneider;Florian;;;
+FN:Florian Reifschneider
+EMAIL:florian@rocketloop.de
+ORG:Rocketloop GmbH
+TITLE:CTO
+ROLE:Founder
+TEL:+4917696033705
+URL;type=pref:https://rocketloop.de
+ADR:;Hansaallee 154;;Frankfurt am Main;;60320;Germany
+END:VCARD
